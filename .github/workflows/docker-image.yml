@@ -27,7 +27,7 @@ jobs:
         
     - name: Buid Docker image
       run:
-        docker build -t flacoariel/docker-graphql:0.0.2 .
+        docker build -t flacoariel/docker-graphql:0.0.2
 
     - name: Push Docker image
       run:
