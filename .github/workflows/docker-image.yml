@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: ChockOut code 
+    - name: CheckOut code
     - uses: actions/checkout@v4
-      witch:
+      with:
         fetch-depth: 0
         
     - name: Docker login
